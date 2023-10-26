@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tcsexpress.com</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    window.onload = function() {
+        var logo = document.getElementById('logo');
+        var Menu = document.getElementById('myContainer');
+    
+        logo.onclick = function() {
+            Menu.style.display = 'none';
+        };
+    };
+    </script>
+</head>
+<body>
+  <div >
+  <div class="myContainer" style="background-color: red; height: 100px; display: flex; align-items: center; ">
+    <img  id="logo" src="./logo.png" style="margin-right: 10px; width: 179px;"> 
+    <ul class="list-container">
+      <li class="menu"><a href="" style="margin-right: 15px;">About us</a>
+        <ul class="submenu">
+          <li><a href="#">Mission and Core values</a></li>
+          <li><a href="#">Miles stones</a></li>
+        </ul>
+      </li>
+      <li class="menu"><a href="" style="margin-right: 15px;">Domestic</a></li>
+      <li class="menu"><a href="" style="margin-right: 15px;">International</a></li>
+      <li class="menu"><a href="" style="margin-right: 15px;">Express</a></li>
+    </ul>
+  </div>
+
+  <div >
+     
+    <div class="carousel">
+      <ul class="slides">
+        <input type="radio" name="radio-buttons" id="img-1" checked />
+        <li class="slide-container">
+          <div class="slide-image">
+            <img src="./banner-new.jpg">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-3" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-2" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+      
+        </li>
+        <input type="radio" name="radio-buttons" id="img-2" />
+        <li class="slide-container">
+          <div class="slide-image">
+            <img src="./slider-banner2.jpg">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-1" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-3" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+          
+        </li>
+        <div class="carousel-dots">
+          <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+          <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+        </div>
+      </ul>
+      
+    </div>
+    <div class="carousel-content">
+      <div class="centered" >
+        <div style="display: flex;">
+          <input type="text" placeholder="Entering your tracking number" style="width: 300px; height: 40px; cursor: pointer;">
+          <div>
+            <input style="height:43px; width: 200px; background-color: red; color: white;" type="submit" name="" id="" value="Track Shipment">
+          </div>
+          
+        </div>
+       
+      </div>
+    </div>
+    <!-- sss -->
+    <div style="text-align: center; margin-top: 10px;">
+      <div>
+        <h3>Products And Services</h3>
+        <i class="fa fa-car" style="font-size:60px;color:black; margin-right: 100px;"></i>
+       
+        <i class="fa fa-envelope" style="font-size:60px;color:black; margin-right: 100px;"></i>
+        <i class="fa fa-globe" style="font-size:60px;color:black; margin-right: 100px;"></i>
+        <i class="fa fa-plane" style="font-size:60px;color:black; margin-right: 100px;"></i>
+       
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 10px;">
+      <h3>TCS Express Centre</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nemo hic quaerat!
+      </p>
+    </div>
+</div>
+    
+</body>
+</html>
