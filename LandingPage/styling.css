@@ -1,0 +1,115 @@
+body{
+  background-color: cornsilk;
+}
+
+.front-img{
+  width: 100%;
+  transition: all linear 0.7s;
+ }
+
+
+.carousel-control-prev-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='cornsilk' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='cornsilk' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.pic-change-on-hover{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 15px;
+  
+ }
+
+.hover-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+
+
+.pic-change-on-hover:hover .front-img{
+  opacity: 0;
+}
+
+.pic-change-on-hover:hover .hover-image{
+  opacity: 1;
+}
+
+span{
+  color: orangered;
+  font-weight: 10px;
+}
+.box{
+  width: 1000px;
+}
+
+
+.menu-container {
+  position: relative;
+}
+
+.my-menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.my-menu-item {
+  position: relative;
+  margin-right: 20px;
+}
+
+.my-sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0; 
+  background-color: cornsilk;
+  width: 800px;
+  z-index: 1;  
+   /* z index will let your sub menu to be over the rest of bottom content */
+}
+
+.my-menu-item:hover .my-sub-menu {
+  display: flex;
+}
+
+.my-menu , .my-menu-item , .my-sub-menu , a{
+  text-decoration: none;
+}
+
+.my-menu , .my-menu-item , .my-sub-menu , li{
+  /* text-decoration: none; */
+  list-style: none;
+}
+
+
+.my-sub-menu-heading{
+  color: brown;
+  font-weight: bold;
+}
+
+.fa-search:hover{
+  color: orangered;
+}
+/* LIMITED EDITION COLLECTION
+TRADITIONAL PRINTS
+ESSENTIALS KURTI
+PRAYER MAT~ NEW
+WOMEN - MIDSUMMER '23~ NEW
+UNSTITCHED COLLECTION
+STITCHED COLLECTION
+KURTI COLLECTION
+TEEN GIRLS COLLECTION
+KID GIRLS COLLECTION
+MEN - FESTIVE COLLECTION-II '23
+KAMEEZ SHALWAR COLLECTION
+KURTA COLLECTION
+WAISTCOAT COLLECTION
+FOOTWEAR COLLECTION */
